@@ -3,7 +3,7 @@
   "description": "Process webhook from Sendinblue",
   "type": "mautic-plugin",
   "extra": {
-    "install-directory-name": "MauticSendinblueWebhook"
+    "install-directory-name": "MauticSendinblueBundle"
   },
   "require": {
   },

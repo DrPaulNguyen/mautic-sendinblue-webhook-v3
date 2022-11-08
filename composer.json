@@ -1,17 +1,17 @@
 {
-  "name": "dazzle/mautic-sendinblue-bundle",
-  "description": "Allows to send E-mails with Sendinblue",
+  "name": "drpaulnguyen/mautic-sendinblue-webhook-v3",
+  "description": "Process webhook from Sendinblue",
   "type": "mautic-plugin",
   "extra": {
-    "install-directory-name": "MauticSendinblueBundle"
+    "install-directory-name": "MauticSendinblueWebhook"
   },
   "require": {
   },
   "license": "GPL-3.0-only",
   "authors": [
     {
-      "name": "Dazzle",
-      "email": "info@dazzle.be"
+      "name": "DrPaulNguyen",
+      "email": "paul@ask.vin"
     }
   ]
 }

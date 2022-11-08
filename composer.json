@@ -6,8 +6,6 @@
     "install-directory-name": "MauticSendinblueBundle"
   },
   "require": {
-    "mautic/composer-plugin": "^1.0.1",
-    "sendinblue/api-v3-sdk": "^6.1.4"
   },
   "license": "GPL-3.0-only",
   "authors": [

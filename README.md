@@ -7,10 +7,10 @@ Licensed under GNU General Public License v3.0.
 ## Installation via composer
 1. Execute `composer require dazzle/mautic-sendinblue-bundle` in the main directory of the Mautic installation.
 2. Clear the cache via console command `sudo -u www-data php bin/console cache:clear --env=prod` (might take a while) *OR* manually delete the `app/cache/prod` directory.
-3. Fix permission `find . -type f -not -perm 644 -exec chmod 644 {} +
-find . -type d -not -perm 755 -exec chmod 755 {} +
-chmod -R g+w var/cache/ var/logs/ app/config/
-chmod -R g+w media/files/ media/images/ translations/
+3. Fix permission `find . -type f -not -perm 644 -exec chmod 644 {} +;
+find . -type d -not -perm 755 -exec chmod 755 {} +;
+chmod -R g+w var/cache/ var/logs/ app/config/;
+chmod -R g+w media/files/ media/images/ translations/;
 rm -rf var/cache/*`
 
 ## Configuration
